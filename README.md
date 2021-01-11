@@ -1,4 +1,4 @@
-# Social Listening on Twitter using Natural Language Processing (NLP)
+# Twitter Social Listening using Natural Language Processing (NLP) and Recurrent Neural Netword (LSTM)
 
 This repository contains all the code to conduct sentiment analysis, on Tweets related to [McDonald's new plant-based burger - McPlant](https://www.cnbc.com/2020/11/09/mcdonalds-to-test-mcplant-which-includes-its-own-meat-free-burger-next-year-beyond-meat-shares-fall.html), using Twitter API.
 
@@ -47,7 +47,7 @@ After text preprocessing, we applied transfer learning of GloVe, one of the pre-
 <img src="https://github.com/sophiachann/NLP-SocialListening-Twitter/blob/main/img/lstm02.png" width="800">
 Finally adopted LSTM Model with 3 epochs trained, which performed highest validation accuracy and lowest loss.
 
-## Analysis
+## Outcome of this Project
 <img src="https://github.com/sophiachann/NLP-SocialListening-Twitter/blob/main/img/mcd_sentiment-breakdown.png" width="800">
 <img src="https://github.com/sophiachann/NLP-SocialListening-Twitter/blob/main/img/mcplant_sentiment-over-time.png" width="800">
 <img src="https://github.com/sophiachann/NLP-SocialListening-Twitter/blob/main/img/mcplant_most-liked.png" width="800">
