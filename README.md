@@ -14,13 +14,12 @@ This project also offers valuables insights into Marketing Strategies, Product D
 
 ## What is in this repo?
 
-* `Graph` contains all the visualizations made for analysis of sentiment and most popular topics.
 * `data` contains csv files that store dataframes with cleaned tweets and relevant features.
+* `graph` contains all the visualizations made for analysis of sentiment and most popular topics.
+* `img` contains illustrations for README.md
+* `lstm-model` contains a notebook that train the full LSTM model. 
 * `main` contains notebooks that complete steps - from data acquisition, preprocessing, visualisation, transfer learning of LSTM model. 
-* `LSTM_TwitterSentiment` contains a notebook that train the full LSTM model. 
-* `TwitterListening_PPT.pdf` is a powerpoint which illustrates the complete framework of this project.
-
-
+* `nlp_mcd_twitter-sentiment-analysis.pdf` is a powerpoint which illustrates the complete framework of this project.
 
 ## How did we collect the data?
 We used [Tweepy](https://www.tweepy.org/), an easy-to-use Python library for accessing the Twitter API, and passing in relevant parameters such as - search words, language and number of tweets - to specify the items returned. 
